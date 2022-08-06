@@ -1,0 +1,85 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+     background-image: linear-gradient(rgba(0,0,0,0.698), rgba(0,0,0,0.353)), url(background_image.jpg);
+}
+.countainer{
+   
+    margin: 70px auto;
+
+}
+header{
+    color: white;
+    text-align: center;
+
+
+
+}
+
+span{
+    color: red;
+}
+h1{
+    font-size: 65px;
+}
+p{
+    font-size: 24px;
+}
+
+.form{
+    background-color: rgba(0,0,0,0.509);
+    color:white;
+    width: 500px; ;
+    margin:10px  auto;
+    padding-left: 30px;
+    font-size: 20px;
+}
+form *{
+    padding: 10px;
+    margin: 10px;
+
+
+}
+.uzun, select{
+    width: 400px;
+    height: 50px;
+}
+.submit{
+    text-align: center;
+}
+
+#submit{
+    background-color: red;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 24px;
+    border: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    opacity: 0.2;
+    transition: widh 2s, height 2s, background-color 2s, trnsform 2s;
+    
+}
+#submit:hover{
+    background-color: rgb(163, 24, 24);
+transform: scale(1,2);
+box-shadow: 5px 5px 10px white;
+transition: opacity 2s;
+opacity: 1;
+transform: rotate(360deg);
+
+  }
+
+
+   
